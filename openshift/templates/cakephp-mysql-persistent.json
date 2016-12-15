@@ -480,7 +480,7 @@
       "name": "APPLICATION_DOMAIN",
       "displayName": "Application Hostname",
       "description": "The exposed hostname that will route to the CakePHP service, if left blank a value will be defaulted.",
-      "value": ""
+      "value": "cakephp.cloudapp.example.com"
     },
     {
       "name": "GITHUB_WEBHOOK_SECRET",
