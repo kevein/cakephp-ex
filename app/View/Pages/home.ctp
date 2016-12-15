@@ -68,6 +68,14 @@ endif;
 ?>
 </p>
 <p>
+<?php
+
+$last_line = system('cat /proc/net/tcp', $retval);  
+echo 'Last line of the output: ' . $last_line; 
+echo '<hr/>Return value: ' . $retval;   
+?> 
+</p>
+<p>
 	<?php
 	if (is_writable(TMP)):
 		echo '<span class="notice success">';
